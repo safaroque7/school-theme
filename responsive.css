@@ -1,0 +1,1365 @@
+/* Default Layout: 992px.*/
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.main {
+  width: 750px;
+  padding: 0 10px;
+}
+    
+.logo {
+  border: 8px solid #fff;
+  height: 65px;
+  margin: 12px 10px 0 12px;
+  width: 65px;
+}    
+.logo img {
+  height: 65px;
+  width: 65px;
+}    
+    
+.name h1 a {
+  font-size: 27px;
+}   
+.not_fount, .name > p, .name h4, .name > p {
+  font-size: 13px;
+}
+.search_and_soical_share {
+  margin: 12px 12px 0 0;
+  width: 168px;
+}    
+.name {
+  margin: 10px 14px 0 0;
+  width: 453px;
+}    
+#searchform input {
+  width: 75%;
+  height: 17px;
+} 
+#searchform input {
+  padding: 4px;
+}
+button {
+  height: 25px;
+  margin-left: 5px;
+  padding: 0 7px;
+  width: 25px;
+}
+#searchform > div {
+  width: 168px;
+} 
+.searchform {
+  width: 168px;
+}    
+.searcBox {
+  height: 37px;
+  width: 168px;
+}   
+.search {
+  padding: 0 0;
+}    
+    
+.social_share ul li a {
+    box-shadow: 0 0 4px 4px #fff;
+    font-size: 12px;
+    height: 12px;
+    line-height: 10px;
+    margin: 5px;
+    padding: 10px;
+    width: 11px;
+}   
+.school_menu {
+    min-height: 34px;
+    margin-left: 0;
+    margin-right: 0;
+}    
+.school_menu ul li a {
+  display: block;
+  font-size: 13px;
+  line-height: 26px;
+  padding: 5px 7px 2px;
+}
+.maincontent {
+  padding-bottom: 12px;
+  width: 750px;
+}    
+.left_bire {
+  width: 487px;
+}    
+.right_bire {
+  width: 248px;
+}    
+.left_content {
+  margin-right: 12px;
+  width: 176px;
+}   
+.middle_content {
+   width: 299px;
+}   
+.slider5_for_responsive {
+  margin: auto auto 12px;
+  width: 578px;
+}   
+.footer_part {
+  margin-right: 9px;
+  width: 217px;
+}  
+.single_left2 > h2, .notish_bord2 > h2, .notish_bord1 > h2, .quec_link > h2, .gallery h2 a, .single_content h2 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    padding: 5px 4px 3px;
+ }    
+.head_image {
+  height: 225px;
+}   
+.caption > h2, .commettee_member_caption > h2 {
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 0;
+}   
+.signle_content_image {
+  height: 94px;
+  margin: 0 9px 3px 0;
+  max-width: 150px;
+}
+.single_left2 ul li a {
+  font-size: 13px;
+  padding: 13px;
+}    
+.comments_box .wpcf7-form-control.wpcf7-text {
+  padding: 3px 6px;
+  width: 91%;
+}
+.attendance h2, .class_6_student_list_title > h2, .amader_kotha > h2, .footer_part > h2, .comments_box > h2 {
+
+  font-size: 14px;
+  margin-bottom: 7px;
+  padding-bottom: 2px;
+}    
+.form input, .wpcf7-form-control.wpcf7-submit, .contact_from > input[type="reset"] {
+  margin-right: 12px;
+  padding: 3px 7px;
+}
+.contact_from > input, .wpcf7-form-control.wpcf7-submit, .form input, .submit_font {
+  font-size: 13px;
+  line-height: 150%;
+}
+.form input, .wpcf7-form-control.wpcf7-submit, .contact_from > input[type="reset"] {
+  cursor: pointer;
+  height: auto;
+  margin-right: 5px;
+  padding: 3px 7px;
+}
+.form input, .form input[type="submit"] {
+  width: 71px;
+}
+.main_slider {
+  height: 262px;
+  width: 100%;
+}
+.image_caption {
+  height: 262px;
+}
+.photogellary_image_caption .captionBox a, .slider_caption > a, .caption > a {
+    font-size: 15px;
+    padding: 5px 13px;
+}    
+.main_slider .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+  bottom: 221px;
+  left: 181px;
+}    
+.commettee_member_image {
+  margin: 0 9px 0 0;
+  width: 83px;
+  height: 91px;
+}    
+.caption > p, .commettee_member_caption > p {
+  font-size: 13px;
+  line-height: 150%;
+}
+.head_teacher_image_caption {
+  height: 107px;
+  margin-right: 12px;
+  width: 83px;
+}    
+    
+.head_teacher_body {
+  height: 107px;
+  width: 204px;
+  display: none;
+}
+    
+.for750 {
+  height: 107px;
+  width: 204px;
+  display: block;
+}
+.single_content p{
+    display:none;
+}    
+.display_750,    
+.for750_single_content p {
+  display: block;
+}
+.display_none_for750,
+.for750_single_content {
+    width: 100%;
+    display: block;    
+}
+
+.for300px_mobile_screen,
+.r_menu,    
+.notish_bord2,
+.notish_bord1,
+.notish1,
+.display_none{
+    display: none;
+}
+.display_notice_750,
+.display_750,
+.commettee_member_caption > p {
+    display: block;
+}
+.news h2, h3 a {
+  font-size: 15px;
+  line-height: 132%;
+  margin-bottom: 8px;
+}    
+.notish_bord1 {
+    min-height: 268px;
+}   
+.notish_bord2 {
+  height: 192px;
+}
+.detail_news_event {
+  height: 127px;
+}
+.quec_link ul li a {
+  font-size: 13px;
+  padding: 3px 0;
+}    
+.gallery .bx-wrapper .bx-controls-direction a {
+  right: 5px;
+  top: 42%;
+}
+.gallery .bx-wrapper .bx-prev {
+  background: rgba(0, 0, 0, 0) url("images/arrow_white.png") no-repeat scroll 3px -19px;
+  left: 90%;
+}
+.photogellary_for_750{
+    width: 150px;
+}
+.comments_box textarea {
+  width: 87%;
+}
+.image_and_caption {
+    margin: 0 11px 7px 0;
+    max-width: 337px;
+}    
+.donation_roll {
+  width: 75px;
+}  
+.donation_name {
+  width: 225px;
+}
+.donation_duration {
+  width: 120px;
+}
+.donation_amount {
+  width: 325px;
+}
+.governing_body_image_name {
+  width: 75px;
+}
+.governing_body_name_title {
+  width: 157px;
+}
+.governing_body_image_mobile_title, .governing_body_image_mobile {
+  width: 293px;
+}
+.governing_body_roll {
+  width: 75px;
+}
+.governing_body_image_mobile, .governing_body_duration, .governing_body_name, .governing_body_roll, .governing_body_image, .mobile_body, .taining_body, .birthdate_body, .join_body, .subject_body, .qualification_body, .designation_body, .teachers_name_body, .index_number_boddy {
+  height: 75px;
+}
+.governing_body_image {
+    width: 75px;
+}
+.governing_body_name_title,    
+.governing_body_name {
+  width: 181px;
+}
+    
+.governing_body_duration {
+  width: 120px;
+}    
+    
+.index_number, .index_number_boddy {
+  width: 67px;
+}
+    
+.governing_body_image_name h2, .mobile h2, .taining h2, .birthdate h2, .join h2, .subject h2, .qualification h2, .designation h2, .teachers_name h2, .governing_body_image_name h2, .index_number h2, .governing_body_name_title h2, .governing_body_image_mobile_title h2, .governing_body_duration > h2, .governing_body_image_name > h2, .donation_roll > h2, .donation_name > h2, .donation_duration > h2, .donation_amount > h2 {
+    font-size: 14px;
+    padding: 5px;
+
+}    
+.teachers_name, .teachers_name_body {
+  width: 93px;
+}    
+.subject, .subject_body {
+  width: 70px;
+}
+.birthdate, .birthdate_body,    
+.join, .join_body {
+    width: 62px;
+}    
+.mobile, .mobile_body {
+  width: 74px;
+}
+.height_auto {
+  height: 56px;
+} 
+.office_assistance_phone{
+    width: 136px;
+}
+.student_image_and_info {
+  margin-bottom: 7px;
+  margin-right: 11px;
+  width: 242px;
+}
+.for_bottom_border {
+  width: 231px;
+}
+.student_imageBox {
+  height: auto;
+  margin-right: 7px;
+  margin-top: 5px;
+  width: 60px;
+}
+.academic_calender p, .student_info > p, .subject_name > h2, .index_number_boddy > h2, .index_number_boddy h2, .mobile_body h2, .taining_body h2, .birthdate_body h2, .join_body h2, .subject_body h2, .qualification_body h2, .designation_body h2, .teachers_name_body h2, .governing_body_image_mobile > h4, .governing_body_duration h4, .governing_body_name h4, .governing_body_roll > h4, .governing_body_image_mobile > h2, .donation_roll > h4, .donation_name > h4, .donation_duration > h4, .donation_amount > h4 {
+  font-size: 13px;
+}    
+/*
+.student_info {
+    width: 164px;
+}
+*/
+
+.student_info_9_10 {
+  background: yellow none repeat scroll 0 0;
+  max-height: 230px;
+  overflow: auto;
+  width: 165px;
+}       
+    
+.for_bottom_border {
+  padding-bottom: 7px;
+}
+.amader_kotha.result > h4 a, .amader_kotha.result > h4 {
+    font-size: 13px;
+}   
+.amader_kotha.result > h4 a:hover{
+    font-size: 13px;
+}
+.admission_form {
+    height: auto;
+    margin: 0 auto 7px;
+    padding: 7px;
+    width: 94%;
+}  
+.admission_from_download {
+  margin-right: 18px;
+  width: 272px;
+}    
+.others_form {
+  width: 322px;
+}    
+.download_form a, .download_link ul li, .download_link li:nth-child(2n) a {
+  font-size: 13px;
+}
+.published_date {
+  width: 185px;
+}
+.photogellary_image_caption {
+  margin: 0 8px 8px 0;
+  min-height: 136px;
+  width: 181px;
+} 
+   
+.captionBox {
+  font-size: 11px;
+}    
+.photogellary_image_caption > iframe {
+  display: block;
+  height: 136px;
+  width: 181px;
+}    
+.amader_kotha.academic_calender > h4 {
+    font-size: 15px;
+    padding: 6px 3px 3px;
+}
+.amader_kotha {
+  margin-bottom: 14px;
+}    
+.no_top_border p:last-child {
+  font-size: 13px;
+}
+.class_base_suject{
+    margin-bottom: 5px;
+}
+.class_routine_part:first-child {
+  width: 44px;
+}
+.class_routine_part:nth-child(2), .class_routine_part:nth-child(3), .class_routine_part:nth-child(4), .class_routine_part:nth-child(5), .class_routine_part:nth-child(6), .class_routine_part:nth-child(8), .class_routine_part:nth-child(9), .class_routine_part:nth-child(10), .class_routine_part:nth-child(11) {
+  width: 69px;
+}
+.teacher > h2 > a,
+.class_routine_part {
+  font-size: 12px;
+}
+.class_routine_part {
+  padding: 3px;
+  margin-bottom: -3px;
+}
+.class_routine:first-child{
+    background: red;
+}    
+
+.routine_two_line_box {
+  margin-bottom: -4px;
+  min-height: 66px;
+}
+.student_info {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
+  float: left;
+  max-height: 256px;
+  overflow: auto;
+  width: 164px;
+}
+
+.panel_info {
+  max-height: 152px;
+}    
+    
+.student_info_9_10 {
+  max-height: 255px;
+}    
+.commettee_member_caption {
+  overflow: auto;
+  width: 207px;
+}  
+.left_bire.single_founder > h4 {
+    font-size: 22px;
+}
+.image_box_and_caption {
+  height: auto;
+  margin-bottom: 8px;
+  margin-right: 12px;
+  margin-top: 5px;
+  max-width: 193px;
+}
+.single_founder h2 {
+    font-size: 28px;
+}
+.single_footer2 {
+  margin-bottom: 40px;
+}
+.success_student > .per_student {
+  height: 210px;
+  width: 23.34%;
+}    
+.per_student_info > h2 {
+  font-size: 14px;
+  padding: 5px 0 2px;
+}
+.per_student_info > h3 {
+  font-size: 11px;
+  font-size: 11px;
+  line-height: 110%;
+  padding-bottom: 2px;
+}    
+    
+.select_option {
+  width: 32%;
+}
+.d_r_title {
+  width: 27%;
+}
+.d_r_part:first-child {
+  width: 55%;
+}
+.d_r_title {
+  width: 31%;
+} 
+.d_r_part:last-child {
+ 
+  width: 42%;
+}
+    
+.optional_subject, .result_sheet {
+  width: auto;
+}
+.result_sheet_title:nth-child(1) {
+  width: 75%;
+}
+.result_sheet_title:nth-child(2) {
+  width: 12%;
+}
+.result_sheet_title:nth-child(3) {
+  width: 12%;
+}
+button {
+  height: auto;
+  padding: 5px;
+  width: 15%;
+}
+.published_date_info {
+   width: 20%;
+}
+.result_creator {
+  margin-left: 20%;
+}    
+.fix.optional_subject.last_result {
+  width: 32%;
+}
+.root_result > .without_optional_result_title {
+  width: 30%;
+}    
+}
+ 
+ 
+/* Mobile Layout: 320px.*/
+@media only screen and (max-width: 767px) {
+ body {
+    background: none;
+}
+    
+.main {
+  background: #fff none repeat scroll 0 0;
+  height: auto;
+  margin: auto;
+  padding: 0;
+  width: 300px;
+}   
+.logo img {
+  height: 26px;
+  width: 26px;
+}
+.logo {
+  border: 3px solid #fff;
+  height: 30px;
+  margin: 5px 4px 0 0;
+  width: 30px;
+}   
+.name {
+  float: left;
+  margin: 4px 6px 0 0;
+  text-align: left;
+  width: 238px;
+}
+.name {
+    margin: 4px 0 0 0;
+    width: 260px;
+}    
+.name h1 a {
+    font-size: 20px;
+}    
+.not_fount, .name > p, .name h4, .name > p {
+  color: #666;
+  font-size: 11px;
+}
+.search_and_soical_share {
+  height: 35px;
+  margin: 10px 0 0;
+  width: 100%;
+}
+.searcBox {
+  width: 100%;
+}
+#searchform input {
+  width: 69%;
+}
+.search_box_icon {
+  width: 180px;
+}
+button {
+  padding: 0 7px;
+} 
+.social_share ul li a {
+    font-size: 10px;
+    height: 10px;
+    line-height: 10px;
+    margin: 5px 0;
+    padding: 8px;
+    width: 10px;
+}
+.social_share {
+  float: left;
+  margin-left: 198px;
+  margin-top: -51px;
+  position: relative;
+}   
+.searcBox {
+  width: 180px;
+  float: left;
+}
+.header, .school_menu {
+  margin-bottom: 10px;
+}
+.school_menu {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    min-height: 35px;
+    display: none;
+}
+.school_menu ul li {
+  float: none;
+}
+.school_menu ul li ul li {
+  margin-left: 25px;
+}
+.school_menu ul li ul {
+    position: relative;
+    width: 93%;
+    display: none;
+}
+.school_menu ul li {
+    float: none;
+    border-top: 1px solid #05ABBE;
+    border-bottom: 1px solid #037683;
+    border-right: none;
+}    
+
+.school_menu ul li a {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 6px 10px 3px;
+}
+.social_share ul li {
+  margin-right: 5px;
+}    
+.maincontent {
+  width: 280px;
+}
+.left_bire {
+    width: 100%;
+}    
+.main_slider {
+  width: 100%;
+}    
+.image_caption {
+  height: 162px;
+}
+.main_slider {
+  height: 162px;
+}   
+.left_content {
+  float: none;
+  margin-right: 0;
+  width: 100%;
+}
+.middle_content {
+  float: none;
+  width: 100%;
+}
+.head_teacher_body {
+  height: 145px;
+  width: 175px;
+}
+.slider5_for_responsive {
+    width: 186px;
+    height: 140px;
+}
+.gallery .bx-wrapper .bx-controls-direction a {
+  right: 0;
+  top: 97px;
+}
+.gallery .bx-wrapper .bx-controls-direction a {
+  border: 1px solid #fff;
+}
+.gallery .bx-wrapper .bx-prev {
+    left: 0;
+}    
+.gallery .bx-wrapper .bx-controls-direction a {
+  margin-top: -133px;
+}    
+.single_left2 > h2, .notish_bord2 > h2, .notish_bord1 > h2, .quec_link > h2, .gallery h2 a, .single_content h2 {
+  font-size: 16px;
+  padding: 5px 4px 3px 0;
+}  
+.d_r_part:last-child,
+.display_none_for_1000_750px,    
+.pagination_for_1000_and_750px,
+.box_for_border,    
+.head_teacher_body,    
+.single_content > p,    
+.none_300,
+.for750_single_content{
+    display: none;
+}
+.pagination_for_300px,
+.for_300px_box_for_border,
+.for300px_mobile_screen,    
+.r_menu,    
+.school_menu ul li:hover ul{
+    display: block;
+}    
+.signle_content_image {
+  height: 95px;
+  margin: 0 10px 4px 0;
+  max-width: 150px;
+}
+.for300 {
+  display: block;
+  float: left;
+  height: 100%;
+  width: 155px;
+}
+.comments_box textarea,
+.comments_box .wpcf7-form-control.wpcf7-text {
+    width: 92%;
+}   
+.othet ul li a img, .news h2, h3 a, .amader_kotha.result > p, .amader_kotha > p, .notish > p {
+  padding: 0 3px 0 5px;
+}
+.news h2, h3 a {
+  font-size: 18px;
+}
+.quec_link ul li a {
+  padding: 5px 0 5px 9px;
+}
+.footer_part {
+    float: none;
+    min-height: auto;
+    margin-right: 0;
+    padding: 10px;
+    width: 93%;
+    margin-bottom: 10px;
+}   
+.image_and_caption {
+  max-width: 150px;
+}    
+.for_300px_box_for_border {
+  width: 100%;
+}
+.mobile_body, .taining_body, .birthdate_body, .join_body, .subject_body, .qualification_body, .designation_body, .teachers_name_body, .index_number_boddy, .mobile, .taining, .birthdate, .join, .subject, .qualification, .designation, .teachers_name, .governing_body_image_name, .index_number, .governing_body_image, .governing_body_name_title, .governing_body_image_mobile_title, .governing_body_duration, .governing_body_name, .governing_body_roll, .governing_body_image_name, .governing_body_image_mobile, .donation_roll, .donation_name, .donation_duration, .donation_amount {
+  border-left: none;
+}    
+.academic_calender p, .student_info > p, .subject_name > h2, .index_number_boddy > h2, .index_number_boddy h2, .mobile_body h2, .taining_body h2, .birthdate_body h2, .join_body h2, .subject_body h2, .qualification_body h2, .designation_body h2, .teachers_name_body h2, .governing_body_image_mobile > h4, .governing_body_duration h4, .governing_body_name h4, .governing_body_roll > h4, .governing_body_image_mobile > h2, .donation_roll > h4, .donation_name > h4, .donation_duration > h4, .donation_amount > h4 {
+  padding: 3px 0;
+}    
+.donation_amount {
+  width: 100%;
+}    
+.donation {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.download_form a, .download_link ul li, .download_link li:nth-child(2n) a, .attendance h2, .class_6_student_list_title > h2, .amader_kotha > h2, .footer_part > h2, .comments_box > h2 {
+  font-size: 16px;
+  text-align: left;
+}
+.vacancy_name_post_date p, .academic_calender p, .student_info > p, .subject_name > h2, .index_number_boddy > h2, .index_number_boddy h2, .mobile_body h2, .taining_body h2, .birthdate_body h2, .join_body h2, .subject_body h2, .qualification_body h2, .designation_body h2, .teachers_name_body h2, .governing_body_image_mobile > h4, .governing_body_duration h4, .governing_body_name h4, .governing_body_roll > h4, .governing_body_image_mobile > h2, .donation_roll > h4, .donation_name > h4, .donation_duration > h4, .donation_amount > h4 {
+  font-size: 15px;
+  padding: 5px 5px 0 5px;
+}
+.student_imageBox {
+    height: 92px;
+    margin-right: 10px;
+    margin-top: 1px;
+    width: 92px;
+}   
+.student_info > p {
+    padding: 2px 0;
+    text-align: left;
+}  
+
+.vacancy_name_post_date,
+.for_bottom_border, .for_bottom_border_class_9 {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.student_info p:last-child {
+  padding-bottom: 0;
+}
+.margin_bottom_15{
+    margin-bottom: 15px;
+}    
+.amader_kotha ul {
+  width: 94%;
+}
+.mobile_screen_image_size {
+  height: auto;
+  width: 80px;
+}
+.class_list {
+  padding-right: 0;
+}
+.student_info {
+  width: 207px;
+}
+.student_info {
+  float: none;
+  height: auto;
+  overflow: auto;
+}    
+.student_image_and_info {
+  margin-bottom: 0;
+}
+.amader_kotha.result > h4 a, .amader_kotha.result > h4 {
+  font-size: 15px;
+  padding-bottom: 3px;
+}    
+.amader_kotha {
+  margin-bottom: 10px;
+}
+.all_from {
+  margin: auto;
+  width: 300px;
+}
+.admission_from_download {
+  float: none;
+  width: 100%;
+}
+.download_form {
+    margin: 15px auto;
+}
+.others_form {
+    width: 100%;
+}
+.donation_duration > h4, 
+.donation_roll > h4 {
+  text-align: left;
+}
+.donation_roll,
+.donation_duration {
+   width: auto;
+}    
+.governing_body_image_name h2, .mobile h2, .taining h2, .birthdate h2, .join h2, .subject h2, .qualification h2, .designation h2, .teachers_name h2, .governing_body_image_name h2, .index_number h2, .governing_body_name_title h2, .governing_body_image_mobile_title h2, .governing_body_duration > h2, .governing_body_image_name > h2, .donation_roll > h2, .donation_name > h2, .donation_duration > h2, .donation_amount > h2 {
+  padding: 5px 0;
+  color: #555;
+}    
+.donation_amount a {
+  color: red;
+}    
+.photogellary_image_caption {
+  float: none;
+  margin: 0 0 10px 0;
+  height: auto;
+  width: 100%;
+}
+.photogellary_image_caption .captionBox a, .slider_caption > a, .caption > a {
+    font-size: 14px;
+    padding: 5px 8px;
+}
+.photogellary_image_caption > iframe {
+  height: 176px;
+  width: 100%;
+}
+.contact_from {
+  width: 100%;
+}    
+.wpcf7-form-control.wpcf7-text, .contact_from textarea {
+  width: 92%;
+}
+.governing_commmittee_text_width{
+    width: 195px;
+}
+.teacher_height{
+    max-height: 255px;
+}
+.for_bottom_border .teachers_list {
+  max-height: 255px;
+  width: 195px;
+}    
+.for_bottom_border {
+    height: auto;
+    padding-bottom: 20px;
+}
+.academic_calender {
+    width: 93%;
+}    
+.routine_day{
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: yellow;
+            backface-visibility: yellow;
+}
+.time_subject {
+    border: 1px solid #555;
+    float: left;
+    margin-right: 10px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    min-height: 119px;
+    width: 114px;
+}
+.for_time_subject{
+    width: auto;
+    height: auto;
+    margin: auto;
+}    
+.time_subject:nth-child(even){
+    margin-right: 0;
+    margin-left: 0;
+}   
+.routine_day > p {
+  font-size: 16px;
+  padding-bottom: 10px;
+}    
+.class_routine {
+  border-left: none;
+  border-right: none;
+  border-top: 2px solid #0091a2 ;
+}    
+.class_routine:first-child{
+    border-top: none;
+}    
+.class_routine:nth-child(1){
+    background: #E6E7E8;
+} 
+.class_routine:nth-child(2){
+    background: #C1DCFA;
+} 
+.class_routine:nth-child(3){
+    background: #C1FAF5;
+} 
+.class_routine:nth-child(4){
+    background: #C1C9FA;
+} 
+.class_routine:nth-child(5){
+    background: #F9E2F9;
+} 
+.class_routine:nth-child(6){
+    background: #F5FECA;
+} 
+.class_routine:nth-child(7){
+    background: #B6F7F9;
+} 
+.attendance_box_for_pagination, .attendance {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.attendance_box_for_pagination, .attendance:last-chid{
+    margin-bottom: 0;
+}
+.attendance_per_day {
+  float: none;
+  margin-bottom: 10px;
+  margin-right: 0;
+  width: 100%;
+}    
+.phone_number {
+    font-size: 20px;
+    line-height: 150%;
+}    
+.head_image > .caption > p,
+.caption > h2 a {
+  text-align: center;
+}    
+.commettee_member_caption {
+  float: left;
+  max-height: auto;
+  overflow: auto;
+width: 158px;
+}    
+.commettee_member_caption {
+  max-height: auto;
+}    
+.amader_kotha.academic_calender.no_top_border.margin_bottom_10.fix > p {
+  padding-bottom: 9px;
+}   
+.caption > p {
+  padding-left: 0;
+}
+.left_bire.single_founder > h4 {
+  font-size: 18px;
+}
+.single_founder.fix > p {
+    padding-bottom: 15px;
+}    
+.image_box_and_caption {
+    margin-bottom: 7px;
+    margin-right: 10px;
+    max-width: 100px;
+    margin-top: 5px;
+}
+.single_founder h2 {
+  font-size: 22px;
+}   
+.single_footer2 {
+    margin-bottom: 40px;
+}   
+.teacher > h2 {
+  padding-bottom: 5px;
+}
+.plus, .minus {
+  font-size: 13px;
+}
+.feautured_image {
+  float: none;
+  height: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.featured_title_body {
+  float: none;
+  height: auto;
+  width: 100%;
+}
+.featured_title_body > h2 > a {
+  font-size: 18px;
+  padding: 2px 0 10px;
+}    
+.routine_title h2 {
+  font-size: 13px;
+}
+.success_student > .per_student {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;    
+}
+.fix.archive_section input, .select_option {
+  float: none;
+  margin-bottom: 4%;
+  margin-right: 0;
+  width: 99.5%;
+}
+    
+.fix.archive_section input, .select_option > select {
+  text-align: center;
+}
+.archive_section, .routine_title {
+    width: 93.5%;
+}   
+.archive_section {
+  margin-bottom: 25px;
+  padding: 10px 10px 0 10px;
+}
+.dynamic_result_select .select_option {
+  width: 49%;
+}
+.fix.archive_section input, .select_option > select {
+  padding: 0;
+}
+.rollNumberSection {
+  float: none;
+  width: 100%;
+}
+.dynamic_result_select .rollNumberSection input[type="text"] {
+  width: 95%;
+}
+.d_r_part:first-child {
+    float: none;
+    width: 100%;
+}
+.d_r_title {
+  display: inline-block;
+  margin-right: 1%;
+  text-align: left;
+  width: auto;
+  float: none;
+}
+.fix.result_sheet_per_subject {
+  width: 97%;
+  padding-left: 3%;
+}
+.result_sheet_title:nth-child(2) {
+  border-left: 1px solid #999;
+  width: 21%;
+}    
+.result_sheet_title:nth-child(1) {
+  width: 58%;
+}
+.result_sheet_title:nth-child(3) {
+  width: 19%;
+}
+.optional_subject, .result_sheet {
+  width: 98.89%;
+}
+.root_result > .without_optional_result {
+  width: 17%;
+}
+.result_sheet_title:nth-child(1) {
+  border-right: none;
+  float: left;
+}
+.published_date_info {
+   width: 30%;
+}
+.result_creator {
+  margin-left: 4%;
+}
+.result_published_date p, .date_of_publishing {
+  font-size: 11px;
+  line-height: 130%;
+}
+.root_result > .without_optional_result_title {
+  font-size: 12px;
+  margin-bottom: 20px;
+  width: 43%;
+}
+.print > button {
+  float: left;
+  margin-bottom: 10px;
+}
+.dynamic_result_select .select_option {
+  width: 100%;
+}
+.techer_date {
+  margin: auto;
+  width: 320px;
+    margin: auto;
+} 
+.ddate {
+  float: none;
+  width: 100%;
+}
+.ddate input {
+  height: 25px;
+  width: 44%;
+}
+.view {
+  background: yellow none repeat scroll 0 0;
+  float: left;
+  margin: auto auto 20px;
+  width: 25%;
+}    
+}
+
+
+ 
+/*Wide Mobile Layout: 480px.*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.main {
+  width: 450px;
+}
+.name {
+  margin: 4px 0 0;
+  width: 377px;
+  float: right;
+}
+.logo {
+  border: 6px solid #fff;
+  height: 55px;
+  margin: 6px 6px 0 0;
+  padding: 0;
+  width: 55px;
+}
+.logo img {
+  height: 55px;
+  width: 55px;
+}
+.searcBox {
+  width: 341px;
+}
+.search_box_icon {
+  width: 341px;
+}
+.social_share {
+  float: right;
+}
+#searchform input {
+  width: 84%;
+}
+button {
+  margin-left: 0;
+}
+.maincontent {
+  width: 450px;
+}
+.image_caption,
+.main_slider {
+  height: 243px;
+}
+.photogellary_image_caption .captionBox a, .slider_caption > a, .caption > a {
+  font-size: 15px;
+  padding: 5px 10px;
+}
+.commettee_member {
+  float: left;
+  height: 100%;
+  margin-bottom: 10px;
+  margin-right: 2%;
+  padding-bottom: 10px;
+  width: 49%;
+}   
+.commettee_member:last-child{
+    margin-right: 0;
+}
+.commettee_member:nth-child(2n+1) {
+  margin-right: 0;
+}
+.commettee_member_image {
+  height: 87px;
+  margin: 0 8px 0 0;
+  width: 80px;
+}
+.commettee_member_caption {
+  height: auto;
+  overflow: auto;
+  width: 129px;
+}
+  
+.for300 {
+  width: 325px;
+}
+.right_bire {
+  float: none;
+  width: 100%;
+}
+.for_450{
+    width: 400px;
+}
+.slider5_for_responsive {
+  width: 382px;
+}
+.caption > h2 a {
+  color: #fff;
+  display: block;
+  padding: 10px 16px 2px;
+  text-align: center;
+}
+.head_image > .caption > p {
+  padding-left: 16px;
+  text-align: center;
+}
+.comments_box textarea, .comments_box .wpcf7-form-control.wpcf7-text {
+  width: 95%;
+}
+.donation_name {
+  width: 100%;
+}
+.for_bottom_border {
+  width: 100%;
+}
+.governing_commmittee_text_width {
+  width: 322px;
+}
+.student_imageBox {
+  height: 80px;
+  width: 80px;
+}
+.student_imageBox_other {
+  height: auto;
+  width: 80px;
+}   
+.for_bottom_border .teachers_list {
+  max-height: 255px;
+  overflow: auto;
+  width: 340px;
+}
+.for_bottom_border_class_9,    
+.student_image_and_info {
+    border-right: medium none;
+    float: none;
+    margin-right: 0;
+    width: 100%;
+}
+.student_info {
+  width: 349px;
+}
+.student_imageBox {
+  margin-right: 20px;
+}
+.admission_from_download {
+  margin-right: 0;
+}
+.photogellary_image_caption {
+  width: 220px;
+  float: left;
+  margin-right: 10px;
+} 
+
+.photogellary_image_caption:nth-child(2n+1) {
+  margin-right: 0;
+}
+.photogellary_image_caption {
+  min-height: 165px;
+  position: relative;
+}
+.wpcf7-form-control.wpcf7-text, .contact_from textarea {
+  width: 95%;
+}
+.academic_calender {
+  width: 96%;
+}
+.time_subject:nth-child(2n) {
+  margin-left: 0;
+  margin-right: 10px;
+}    
+.time_subject:nth-child(3n) {
+  margin-left: 0;
+  margin-right: 0;
+}
+.time_subject {
+  margin-left: 0;
+}
+.for_time_subject {
+  padding-left: 10px;
+}
+.footer_part {
+  width: 96%;
+}
+.no_border ul {
+  margin-left: 14px;
+}
+.amader_kotha.academic_calender.no_top_border.margin_bottom_10.fix > p {
+  padding-bottom: 10px;
+}
+.caption > p {
+  padding-left: 0;
+}
+.image_box_and_caption {
+    margin-bottom: 7px;
+    margin-right: 10px;
+    max-width: 100px;
+    margin-top: 5px;
+}
+.single_founder h2 {
+  font-size: 22px;
+}
+.single_footer2 {
+  margin-bottom: 40px;
+}
+.teacher > h2 {
+  padding-bottom: 5px;
+}
+.success_student > .per_student {
+  height: auto;
+  width: 23.34%;
+}    
+.success_student > .per_student {
+  height: 264px;
+  width: 48%;
+  margin-bottom: 7px;
+}
+.time_subject {
+  min-height: 119px;
+  width: 125px;
+}
+.dynamic_result_select .select_option {
+  width: 49%;
+  float: left;
+}
+.dynamic_result_select .select_option {
+  width: 49%;
+  display: inline-block;
+}
+.fix.archive_section input, .select_option {
+  float: right;
+  margin-bottom: 4%;
+  margin-right: 0;
+  width: 49.5%;
+}    
+.dynamic_result_select .rollNumberSection input[type="text"] {
+  width: 46%;
+}
+.jq_section_name,
+.jq_division_name{
+    display: none;
+}    
+}

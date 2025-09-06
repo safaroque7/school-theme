@@ -1,0 +1,2690 @@
+/*
+    Theme Name: Soigoria Shah Alam High Shcool
+    Theme URI: http://chhashs.edu.bd/
+    Author: S.A Faroque
+    Author URI: http://webnewsdesign.com/
+    Description: This is a school website
+    version: 1.0
+*/
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.single_left2 > h2,
+.notish_bord2 > h2,
+.notish_bord1 > h2,
+.quec_link > h2,
+.gallery h2 a,
+.single_content h2 {
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 7px 5px 4px;
+    text-align: center;
+}
+
+.commettee_member_caption h2 {
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+#s,
+.contact_from input,
+textarea,
+body {
+    font-family: "SolaimanLipiNormal";
+    font-size: 15px;
+    line-height: 150%;
+    color: #000;
+    background: #ABD8DE;
+}
+
+@font-face {
+    font-family: 'SolaimanLipiNormal';
+    src: url('fonts/solaimanlipi_20-04-07.eot');
+    src: url('fonts/solaimanlipi_20-04-07.eot') format('embedded-opentype'), url('fonts/solaimanlipi_20-04-07.woff') format('woff'), url('fonts/solaimanlipi_20-04-07.ttf') format('truetype'), url('fonts/solaimanlipi_20-04-07.svg#SolaimanLipiNormal') format('svg');
+}
+
+.contact_from > input,
+.wpcf7-form-control.wpcf7-submit,
+.form input,
+.submit_font {
+    font-family: "SolaimanLipiNormal";
+    font-size: 15px;
+    line-height: 150%;
+    padding: 4px 6px 0px 6px;
+}
+
+.main {
+    position: relative
+}
+
+.fix {
+    overflow: hidden
+}
+
+.main {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background: #fff
+}
+
+.logo {
+    background: #fff none repeat scroll 0 0;
+    border: 10px solid #fff;
+    float: left;
+    height: 85px;
+    margin: 15px 13px 0 15px;
+    width: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.single_image_size img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.name {
+    float: left;
+    margin: 15px 20px 0 0;
+    text-align: left;
+    width: 605px;
+}
+
+.name h1 a {
+    color: #0091a2;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: left;
+}
+
+.not_fount,
+.name > p,
+.name h4,
+.name > p {
+    font-size: 15px;
+}
+
+.name h4 {
+    display: inline-block;
+    line-height: 150%;
+}
+
+.per_student_info > h2,
+.fix.amader_kotha > h6,
+.fix.amader_kotha > h5,
+.right_bire.fix > h2,
+.routine_title h2,
+.teacher > h2 > a,
+.donation_amount a,
+.search_message > h2,
+#my-calendar thead tr th,
+.left_bire.single_founder > h4,
+.single_left2 > h2,
+.amader_kotha.academic_calender > h4,
+.attendance_per_day > h4,
+.amader_kotha.result > h4,
+.school_role > h2,
+.comments_box > h2,
+.gallery a,
+.notish_bord2 > h2,
+.notish_bord1 > h2,
+.quec_link > h2,
+.quec_link > h2,
+.single_content h2,
+h3,
+.commettee_member_caption > h2,
+.caption > h2,
+.caption > a,
+.news h3,
+.name h4,
+.name h1 {
+    font-weight: normal;
+}
+
+.header,
+.school_menu {
+    margin-bottom: 15px;
+}
+
+.school_menu {
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+    min-height: 45px;
+}
+.school_left_menu,
+.single_left2 > h2,
+.footer,
+.gallery h2 a,
+.notish_bord2 > h2,
+.notish_bord1 > h2,
+.quec_link h2,
+.single_content h2,
+.school_menu {
+    background: #0091a2 none repeat scroll 0 0;
+}
+
+
+.school_left_menu {
+    margin-top: 20px;
+}
+
+.school_menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.school_menu ul li {
+    float: left;
+    border-left: 1px solid #05ABBE;
+    border-right: 1px solid #037683;
+}
+
+.school_menu ul li:last-child {
+    border-right: 0;
+}
+
+.school_menu ul li:first-child {
+    border-left: 0;
+}
+
+.school_menu ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 6px 10px 3px;
+}
+
+button:hover,
+.menu-top-menu-container .current-menu-item a,
+.school_menu ul li a:hover,
+.single_left2 ul li a:hover {
+    background: #026E7B;
+    color: #fff
+}
+
+
+/* dropdown menu */
+
+.school_menu ul li ul {
+    position: absolute;
+    z-index: 9999;
+    margin-left: -999999px;
+}
+
+.school_menu ul li:hover ul {
+    margin-left: 0;
+    background: #0091a2 none repeat scroll 0 0;
+}
+
+.school_menu ul li ul li {
+    float: none;
+    border-top: 1px solid #05ABBE;
+    border-bottom: 1px solid #037683;
+    border-right: none;
+    border-left: none;
+}
+
+.othet ul li:last-child,
+.school_menu ul li ul li:last-child {
+    border-bottom: 0;
+}
+
+.school_menu ul li ul li:first-child {
+    border-top: 0;
+}
+
+.school_menu ul li ul li a {
+    display: block;
+    line-height: 30px;
+}
+
+.news {
+    margin-top: 5px;
+}
+.classNameForattendance,
+.success_student,
+.archive_section,
+.header,
+.single_image_size,
+.head_teacher_image_caption_body,
+.school_history_image,
+.class_routine,
+.all_from. .donation,
+.social_share,
+.footer_three_part,
+.form,
+.news,
+.comments_box {
+    width: 100%;
+    height: auto;
+}
+.classNameForattendance:nth-child(1){
+    border-top: 1px solid red;
+}
+.classNameForattendance {
+  border: 1px solid #666;
+  padding-left: 7px;
+  margin-bottom: 4px;
+}
+.box_for_border {
+    height: auto;
+}
+
+.search_and_soical_share {
+    float: right;
+    margin: 15px 15px 0 0;
+    width: 225px;
+}
+
+.news h2,
+h3 a {
+    border-bottom: 1px solid red;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 11px;
+    text-align: center;
+    line-height: 150%;
+}
+
+.news h3 {
+    color: #000;
+    font-size: 18px;
+}
+
+.left_news {
+    float: left;
+    width: 150px;
+    color: #fff;
+    margin: 0px 2px
+}
+
+.middle_news {
+    float: left;
+    width: 500px;
+    color: #cf0000;
+    padding: 0px 0px;
+}
+
+.search {
+    float: left;
+    width: 100px;
+    padding: 0;
+}
+
+input[type=search] {
+    width: 120px;
+    height: 20px;
+}
+
+input[type=activ] {
+    width: 39px;
+    height: 20px;
+}
+
+.maincontent {
+    height: auto;
+    margin: auto;
+    width: 970px;
+    padding-bottom: 15px;
+}
+
+.left_bire {
+    float: left;
+    height: auto;
+    width: 650px;
+}
+
+.left_content2 {}
+
+.single_left2 {
+    margin-bottom: 10px
+}
+
+.single_left2 ul {
+    list-style: none;
+}
+
+.single_left2 ul li {
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.single_left2 ul li:last-child {
+    border-bottom: px solid
+}
+
+.single_left2 ul li a {
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.form {
+    widows:
+}
+
+.main_slider {
+    height: 350px;
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.left_content {
+    float: left;
+    margin-right: 15px;
+    width: 235px;
+}
+
+.middle_content {
+    float: right;
+    width: 400px;
+}
+
+.single_content {
+    border: none;
+    margin-bottom: 15px
+}
+
+.right_bire {
+    float: right;
+    height: auto;
+    width: 305px;
+}
+
+.notish_bord1 {
+    border: medium none;
+    margin-bottom: 8px;
+    min-height: 357px;
+    width: 100%;
+}
+
+.notish_bord2 {
+    border: medium none;
+    height: 257px;
+    margin-bottom: 15px;
+}
+
+.notish2 {
+    width: 250px;
+    height: auto;
+    text-align: justify;
+}
+
+.notish {
+    height: auto;
+    padding: 0 0 7px;
+    text-align: justify;
+}
+
+.single_content a,
+.notish a {
+    color: red;
+}
+
+.detail_news_event a {
+    float: none;
+}
+
+
+/* quek_link */
+
+.quec_link {
+    border: none;
+    margin-top: 10px
+}
+
+.quec_link ul {
+    list-style: outside none none;
+    padding: 0;
+}
+
+.quec_link ul li {
+    float: none;
+    border-bottom: 1px solid #fff
+}
+
+.othet ul li,
+.commettee_member,
+.quec_link ul li a {
+    border-bottom: 1px dashed #D1D3D4;
+}
+
+.quec_link ul li a {
+    color: #333;
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.quec_link ul li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+
+/* other */
+
+.othet {
+    padding: 10px 0 0;
+    margin-bottom: 15px;
+}
+
+.othet ul {
+    list-style: none;
+}
+
+.othet ul li {
+    float: none;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.othet ul li a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.othet ul li a:hover {
+    color: #fff;
+    background: #99FF33;
+}
+
+.image_box_and_caption > img,
+.cboxElement > img,
+.othet ul li a img {
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.gallery {
+    height: 187px;
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.footer {
+    padding: 10px;
+    height: auto;
+    width: 100% color: #003300;
+}
+
+ul {
+    list-style: none;
+}
+
+.single_footerS {
+    padding: 10px;
+    height: 30px;
+    width: 100% color: #003300;
+    background: #3399FF;
+}
+
+.amader_kotha {
+    color: #000;
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.amader_kotha1 {
+    padding: 50px;
+    color: #000000;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.text_box {
+    width: 960px;
+    height: auto;
+    background-color: #F7FDFD;
+    position: center;
+    margin: 20px;
+}
+
+.gmap {
+    margin: 40px;
+    height: 400px;
+    width: 1040px;
+}
+
+.form1 {
+    width: 200px;
+    height: 300px;
+    margin: 30px;
+}
+
+.academic {
+    margin: 50px;
+    padding: 50px;
+    height: 1000px;
+    width: 800px;
+    background-color: #09d995;
+    text-align: center;
+    font-size: 25px;
+}
+
+.textbox_aca {
+    /* padding:50px; */
+    height: Auto;
+    width: 400px;
+    background-color: #909;
+    text-align: Justify;
+    font-size: 20px;
+}
+
+.exam-schedule {
+    height: Auto;
+    width: Auto;
+    background-color: #FFFFCC;
+    text-align: center;
+    font-size: 25px;
+}
+
+.classheadding {
+    height: Auto;
+    width: Auto;
+    background-color: #6699FF;
+    text-align: center;
+    font-size: 25px;
+}
+
+.search_form {
+    margin-bottom: 2px;
+    width: 100%;
+    background: red;
+}
+
+.image_caption {
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.attachment-headmaster_image_size.wp-post-image .admission_form > img,
+.single_content img,
+.image_caption > img {
+    display: block;
+    height: 100%;
+    margin: auto;
+    max-width: 100%;
+}
+
+.slider_caption,
+.caption {
+    background: rgba(0, 0, 0, .75);
+    bottom: 0;
+    color: #fff;
+    height: auto;
+    position: absolute;
+    width: 100%;
+}
+
+.photogellary_image_caption .captionBox a,
+.slider_caption > a,
+.caption > a {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    padding: 5px 16px;
+    line-height: 150%;
+}
+
+.pcaption a {
+    font-size: 16px;
+}
+
+.pccaption_padding a {
+    padding: 5px;
+    display: block;
+}
+
+.slider_caption > a font-size: 13px;
+padding: 5px;
+
+}
+.single_left2 img {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    display: block;
+}
+.single_left2 {
+    width: 100%;
+    height: 100%;
+}
+.signle_content_image {
+    float: left;
+    height: 126px;
+    margin: 0 12px 5px 0;
+    max-width: 200px;
+}
+.single_content > p {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: justify;
+}
+.commettee_member {
+    height: 100%;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+}
+.othet ul li:last-child,
+.commettee_member:last-child {
+    margin-bottom: 0;
+    border: none;
+    padding-bottom: 0;
+}
+.commettee_member_image {
+    float: left;
+    height: auto;
+    margin: 0 12px 0 0;
+    width: 110px;
+    height: 120px;
+}
+.caption > p {
+    padding-left: 16px;
+}
+.caption > p,
+.commettee_member_caption > p {
+    font-size: 14px;
+    line-height: 150%;
+    padding-bottom: 5px;
+}
+.commettee_member_caption > p {
+    padding-bottom: 0;
+}
+.caption > h2,
+.commettee_member_caption > h2 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 5px 0;
+    text-align: left;
+}
+.caption > h2 a {
+    color: #fff;
+    padding: 10px 16px 2px;
+    display: block;
+}
+.commettee_member_caption {
+    float: left;
+    width: auto;
+    width: 278px;
+    max-height: auto;
+    overflow: auto;
+}
+.head_image {
+    height: 300px;
+    position: relative;
+    width: 100%;
+}
+.complate_committee a {
+    color: #555;
+    font-size: 16px;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 111%;
+}
+.bx-wrapper .bx-prev {
+    background: rgba(0, 0, 0, 0) url("images/arrow.png") no-repeat scroll 3px -19px;
+    left: 0;
+}
+.bx-wrapper .bx-next {
+    background: rgba(0, 0, 0, 0) url("images/arrow.png") no-repeat scroll -13px -19px;
+    right: 0;
+}
+.bx-wrapper .bx-controls-direction a {
+    height: 20px;
+    margin-top: -11px;
+    width: 20px;
+}
+.gallery .bx-wrapper .bx-controls-direction a {
+    height: 20px;
+    margin-top: -91px;
+    width: 20px;
+    border: 1px solid #fff;
+}
+.bx-wrapper .bx-prev:hover {
+    background-position: 3px 2px;
+}
+.bx-wrapper .bx-next:hover {
+    background-position: -13px 2px;
+}
+.bx-wrapper .bx-viewport {
+    background: none;
+    border: none;
+    box-shadow: none;
+    left: 0;
+    transform: translateZ(0px);
+}
+.form > input,
+.form > textarea {
+    border: 1px solid #d1d3d4;
+}
+.form > input {
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 95%;
+}
+.form > textarea {
+    height: 100px;
+    margin-bottom: 10px;
+    width: 98%;
+    background: none;
+}
+.form input[type="reset"],
+.form input,
+.form input[type="submit"] {
+    border: 1px solid #d1d3d4;
+    cursor: pointer;
+    height: auto;
+    margin-bottom: 10px;
+    width: auto;
+}
+.slider {
+    height: 140px;
+    width: auto;
+}
+.gallery .bx-wrapper .bx-controls-direction a {
+    top: 39%;
+    right: 10px;
+}
+.gallery .bx-wrapper .bx-prev {
+    background: rgba(0, 0, 0, 0) url("images/arrow_white.png") no-repeat scroll 3px -19px;
+    left: 94%;
+}
+.gallery .bx-wrapper .bx-next {
+    background: rgba(0, 0, 0, 0) url("images/arrow_white.png") no-repeat scroll -13px -19px;
+}
+.slider5_for_responsive {
+    height: 187px;
+    margin: auto;
+    width: 970px;
+    margin-bottom: 15px;
+}
+.single_footer2 > ul > li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.single_footer2 ul li a {
+    color: yellow;
+}
+.single_footer2 {
+    color: #fff;
+    font-size: 13px;
+}
+.footer_part {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    margin-right: 10px;
+    min-height: 255px;
+    padding: 10px;
+    width: 290px;
+}
+.photogellary_image_caption:nth-child(4n+1),
+.form input,
+.attendance_per_day:last-child,
+.footer_part:last-child {
+    margin-right: 0;
+}
+.student_image_and_info:nth-child(3n) {
+    margin-right: 0;
+    border-right: navy;
+}
+.form > h3 {
+    font-size: 14px;
+    text-align: left;
+    border: none;
+    margin-bottom: 2px;
+    padding: 0;
+    color: #999;
+}
+.search_form > input {
+    width: 100%;
+    height: 22px;
+    padding: 5px;
+}
+.social_share ul {
+    list-style: none;
+    margin-left: 0;
+    text-align: center;
+}
+.social_share ul li {
+    display: inline-block;
+}
+.social_share ul li a {
+    border-radius: 59%;
+    color: #fff;
+    display: block;
+    font-size: 15px;
+    height: 15px;
+    line-height: 10px;
+    margin: 7px;
+    padding: 10px;
+    width: 15px;
+}
+.facebook a {
+    background: #43609C;
+}
+.twitter a {
+    background: #4E9FDB;
+}
+.google-plus a {
+    background: #DF5138;
+}
+.social_share ul li a:hover {
+    background: red;
+}
+.amader_kotha.result > p,
+.amader_kotha > p,
+.notish > p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.donation_roll {
+    height: auto;
+    width: 100px;
+}
+.donation_name {
+    height: auto;
+    width: 300px;
+}
+.donation_duration {
+    height: auto;
+    width: 159px;
+}
+.donation_amount {
+    height: auto;
+    width: 406px;
+}
+.mobile_body,
+.taining_body,
+.birthdate_body,
+.join_body,
+.subject_body,
+.qualification_body,
+.designation_body,
+.teachers_name_body,
+.index_number_boddy,
+.mobile,
+.taining,
+.birthdate,
+.join,
+.subject,
+.qualification,
+.designation,
+.teachers_name,
+.governing_body_image_name,
+.index_number,
+.governing_body_image,
+.governing_body_name_title,
+.governing_body_image_mobile_title,
+.governing_body_duration,
+.governing_body_name,
+.governing_body_roll,
+.governing_body_image_name,
+.governing_body_image_mobile,
+.donation_roll,
+.donation_name,
+.donation_duration,
+.donation_amount {
+    border-left: 1px solid #bcbec0;
+    float: left;
+}
+.governing_body_image_name h2,
+.mobile h2,
+.taining h2,
+.birthdate h2,
+.join h2,
+.subject h2,
+.qualification h2,
+.designation h2,
+.teachers_name h2,
+.governing_body_image_name h2,
+.index_number h2,
+.governing_body_name_title h2,
+.governing_body_image_mobile_title h2,
+.governing_body_duration > h2,
+.governing_body_image_name > h2,
+.donation_roll > h2,
+.donation_name > h2,
+.donation_duration > h2,
+.donation_amount > h2 {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.academic_calender p,
+.student_info > p,
+.subject_name > h2,
+.index_number_boddy > h2,
+.index_number_boddy h2,
+.mobile_body h2,
+.taining_body h2,
+.birthdate_body h2,
+.join_body h2,
+.subject_body h2,
+.qualification_body h2,
+.designation_body h2,
+.teachers_name_body h2,
+.governing_body_image_mobile > h4,
+.governing_body_duration h4,
+.governing_body_name h4,
+.governing_body_roll > h4,
+.governing_body_image_mobile > h2,
+.donation_roll > h4,
+.donation_name > h4,
+.donation_duration > h4,
+.donation_amount > h4 {
+    font-size: 16px;
+    padding: 5px 10px;
+    font-weight: normal;
+    word-wrap: break-word;
+}
+.governing_body_image {
+    float: left;
+    width: 101px;
+}
+.governing_body_image_mobile_title,
+.governing_body_image_mobile {
+    width: 391px;
+}
+.governing_body_image_mobile {
+    height: 100px;
+}
+.governing_body_image_name {
+    width: 101px;
+}
+.governing_body_roll {
+    height: 100px;
+    width: 100px;
+}
+.governing_body_duration {
+    height: 100px;
+    width: 160px;
+}
+.governing_body_name {
+    height: 100px;
+    width: 210px;
+}
+.governing_body_name_title {
+    height: auto;
+    width: 210px;
+}
+.box_for_border {
+    border-right: 1px solid #bcbec0;
+    border-top: 1px solid #bcbec0;
+}
+.teachers_name {
+    width: 148px;
+}
+.mobile {
+    width: 130px;
+}
+.governing_body_image,
+.mobile_body,
+.taining_body,
+.birthdate_body,
+.join_body,
+.subject_body,
+.qualification_body,
+.designation_body,
+.teachers_name_body,
+.index_number_boddy {
+    height: 101px
+}
+.image_for_teachers_and_student,
+.mobile,
+.taining,
+.birthdate,
+.join,
+.subject,
+.qualification,
+.designation,
+.teachers_name,
+.index_number {
+    height: 53px
+}
+.index_number,
+.index_number_boddy {
+    width: 70px;
+}
+.teachers_name,
+.teachers_name_body {
+    width: 124px;
+    text-align: left;
+}
+.designation,
+.designation_body {
+    width: 65px;
+}
+.qualification,
+.qualification_body {
+    width: 93px;
+}
+.subject,
+.subject_body {
+    width: 83px;
+}
+.join,
+.join_body {
+    width: 105px;
+}
+.birthdate,
+.birthdate_body {
+    width: 109px;
+}
+.taining,
+.taining_body {
+    width: 77px;
+}
+.mobile,
+.mobile_body {
+    width: 132px;
+}
+.office_assistance {
+    width: 165px;
+}
+.office_assistance_qualification {
+    width: 123px;
+}
+.office_assistance_index_number {
+    width: 101px;
+}
+.post_name {
+    width: 200px;
+}
+.subject_name_width {
+    width: 210px;
+    min-height: 55px;
+}
+.blank_date {}
+.post_name,
+.subject_name,
+.blank_date,
+.zero_comments {
+    min-height: 55px;
+}
+.blank_date {
+    width: 242px;
+}
+.zero_comments {
+    width: 313px;
+}
+.teacher_color {
+    background: #BCF6BF;
+}
+.assistance_color {
+    background: #E1DCFB;
+}
+.zero_color {
+    background: #E795A5;
+}
+.caption > h2 a:hover,
+.quec_link ul li a:hover,
+.amader_kotha.result > h4 a:hover,
+.school_role > h2 {
+    text-decoration: underline;
+}
+.school_role > h2 {
+    font-size: 16px;
+}
+.amader_kotha.result > h4 a:hover {
+    font-size: 17px;
+}
+.amader_kotha.result > h4 a:before {
+    content: "*";
+    color: red;
+    font-size: 15px;
+}
+.download_link ul,
+.school_role > ul {
+    color: #999;
+    list-style-type: square;
+    margin-left: 19px;
+    float: left;
+}
+.school_role ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #555;
+}
+.school_role ul li:last-child {
+    margin-bottom: 10px;
+}
+.height_auto {
+    height: auto;
+}
+.class_list {
+    float: left;
+    height: auto;
+    margin-bottom: 15px;
+    padding-right: 15px;
+    width: 100%;
+    border-bottom: 1px dashed #0091a2;
+}
+.student_imageBox {
+    float: left;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 7px;
+    width: 80px;
+}
+.student_info {
+    float: left;
+    max-height: 300px;
+    overflow: auto;
+    width: 207px;
+}
+.student_info_9_10 {
+    max-height: 300px;
+    overflow: auto;
+}
+.student_info > p {
+    line-height: 150%;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.student_image_and_info {
+    border-right: 1px dashed #0091a2;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    width: 312px;
+}
+.student_info > p:first-child {
+    font-weight: bold;
+}
+.class_list:last-child {
+    padding-bottom: 0;
+    border: none;
+}
+.for_bottom_border {
+    max-height: 418px;
+    overflow: auto;
+    width: 297px;
+}
+.for_bottom_border_class_9 {
+    max-height: 316px;
+    overflow: auto;
+    padding-bottom: 10px;
+    width: 297px;
+}
+.vacancy_name_post_date,
+.for_bottom_border,
+.for_bottom_border_class_9 {
+    border-bottom: 1px dashed #0091a2;
+}
+.google_map_school {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.google_map_school iframe {
+    height: 50vh;
+    width: 100%;
+}
+.footer_part iframe {
+    width: 100%;
+    height: 250px;
+}
+.footer_part iframe,
+.google_map_school iframe {
+    border: 0 none;
+}
+.contact_from {
+    width: 400px;
+    height: auto;
+    margin: auto;
+}
+.download_form,
+.download_link li:nth-child(even),
+.admission_from_download > input[type="button"],
+.commettee_member_image,
+.student_imageBox {
+    background: #E6E7E8;
+}
+.admission_form {
+    border: 1px solid #555;
+    height: auto;
+    margin: 0 auto 10px;
+    width: 92%;
+    padding: 10px;
+}
+.download_form,
+.download_link li:nth-child(even),
+.admission_from_download > input[type="button"] {
+    border: 1px solid #0091a2;
+}
+
+/*.download_link li:nth-child(even),*/
+.admission_from_download > input[type="button"] {
+    color: #000;
+    display: block;
+    font-size: 15px;
+    height: auto;
+    margin: auto auto 15px;
+    width: 131px;
+    font-family: "SolaimanLipiNormal";
+}
+.fix.archive_section input,
+.fix.archive_section > input,
+.featured_title_body > h2 > a,
+.plus,
+.minus,
+.amader_kotha.result > h4 a,
+button,
+.form input,
+.class_routin_download > a,
+.single_left2 > h2,
+.caption > h2 a,
+.quec_link ul li a,
+.download_form a,
+.download_link li:nth-child(2n) a,
+.page-numbers,
+.amader_kotha ul li a,
+.class_routin_download > input,
+.class_routin_download input[type="text"],
+.qualification_body.office_assistance_qualification.zero_comments a,
+.form input[type="submit"],
+.download_link li:nth-child(2n) a,
+.download_link li:nth-child(even),
+.admission_from_download > input[type="button"],
+.social_share ul li a,
+.othet ul li a,
+.single_left2 ul li a,
+.wpcf7-form-control.wpcf7-text,
+.contact_from textarea,
+.wpcf7-form-control.wpcf7-submit,
+.contact_from > input[type="reset"],
+.school_menu ul li a {
+    transition: all 1s ease 0s;
+}
+.admission_from_download {
+    float: left;
+    height: auto;
+    margin-right: 25px;
+    width: 270px;
+}
+.others_form {
+    float: left;
+    height: auto;
+    width: 430px;
+}
+.download_link ul li {
+    float: left;
+}
+
+/*
+.download_link li:nth-child(2n) {
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 28px;
+    text-align: center;
+    margin-right: 25px;
+}
+*/
+.all_from {
+    margin: auto;
+    width: 750px;
+}
+.download_form a,
+.download_link ul li,
+.download_link li:nth-child(2n) a {
+    font-size: 18px;
+    line-height: 150%;
+}
+.download_form a,
+.download_link li:nth-child(2n) a {
+    color: #f00;
+    padding: 5px 10px;
+}
+
+/*
+.download_link li:nth-child(2n):hover,
+.download_link li:nth-child(2n) a:hover{
+    color: #f00;
+}
+*/
+.public_result {
+    height: auto;
+    margin: 0 auto 15px;
+    width: 675px;
+}
+.public_result > iframe {
+    width: 100%;
+    height: 604px;
+}
+.result > h2 {
+    background: #0091a2 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px 1px;
+}
+.result_none_bg {
+    background: none;
+}
+.qualification_body.office_assistance_qualification.zero_comments a:hover {
+    color: #0091a2;
+}
+.qualification_body.office_assistance_qualification.zero_comments a {
+    color: red;
+}
+.amader_kotha.result > h4 a,
+.amader_kotha.result > h4 {
+    font-size: 17px;
+    color: #0091a2;
+    padding-bottom: 5px;
+}
+.amader_kotha.result > h4 a {
+    padding-bottom: 5px;
+    display: block;
+}
+.academic_calender {
+    border: 10px solid #0091a2;
+    height: auto;
+    text-align: center;
+    width: 98%;
+}
+.amader_kotha.academic_calender > h4 {
+    background: #0091a2 none repeat scroll 0 0;
+    color: #fff;
+    margin-bottom: 2px;
+    padding: 8px 5px 5px;
+    font-size: 16px;
+}
+.no_top_border {
+    border-top: none;
+}
+.no_top_border p:last-child {
+    font-size: 16px;
+    color: #000;
+}
+.academic_calender p:first-child {
+    padding-top: 10px;
+}
+.marigin_bottom_10 {
+    margin-bottom: 5px;
+}
+.attendance h2,
+.class_6_student_list_title > h2,
+.amader_kotha > h2,
+.footer_part > h2,
+.comments_box > h2 {
+    border-bottom: 1px solid #0091a2;
+    color: #0091a2;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    font-weight: normal;
+}
+.class_routine {
+    border-top: 1px solid #0091a2;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    border-left: 1px solid #0091a2;
+    border-right: 1px solid #0091a2;
+}
+.class_routine_part {
+    border-right: 1px solid #0091a2;
+    float: left;
+    padding: 5px;
+    word-wrap: break-word;
+}
+.teacher > h2 > a,
+.class_routine_part {
+    font-size: 16px;
+}
+.class_routine_part:last-child {
+    border-right: none;
+}
+.class_routine_part:first-child {
+    width: 57px;
+}
+.class_routine_part:nth-child(7) {
+    background: #B8F8FF none repeat scroll 0 0;
+    color: #333;
+    padding: 5px;
+    text-align: center;
+    width: 42px;
+}
+.class_routine_part:nth-child(2),
+.class_routine_part:nth-child(3),
+.class_routine_part:nth-child(4),
+.class_routine_part:nth-child(5),
+.class_routine_part:nth-child(6),
+.class_routine_part:nth-child(8),
+.class_routine_part:nth-child(9),
+.class_routine_part:nth-child(10),
+.class_routine_part:nth-child(11) {
+    width: 89px;
+}
+.routine_two_line_box {
+    min-height: 71px;
+}
+.amader_kotha.academic_calender.no_top_border.margin_bottom_20 > h4 {
+    margin-bottom: 15px;
+}
+.amader_kotha.academic_calender.no_top_border.margin_bottom_20 {
+    margin-bottom: 10px;
+}
+.class_routine:last-child {
+    border-bottom: 3px solid #0091a2;
+    margin-bottom: 20px;
+}
+.class_routin_download {
+    margin: 10px auto;
+}
+.attendance_box_for_pagination,
+.attendance {
+    height: auto;
+    margin: auto auto 20px;
+    width: 750px;
+}
+.attendance {
+    border-bottom: 1px dashed #0091a2;
+}
+.attendance_per_day {
+    float: left;
+    height: auto;
+    margin-right: 37px;
+    width: 225px;
+    margin-bottom: 10px;
+}
+.attendance_per_day > h4 {
+    background: #0091a2;
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+.attendance_per_day > p {
+    font-size: 16px;
+    line-height: 200%;
+}
+.attendance_float_right {
+    float: right;
+}
+.amader_kotha ul {
+    margin: auto;
+    width: 750px;
+}
+
+/*
+.amader_kotha ul li {
+  border-bottom: 1px dashed #999;
+  color: #999;
+  list-style-type: square;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+}
+*/
+.amader_kotha ul li {
+    color: #555;
+    font-size: 15px;
+    line-height: 150%;
+    list-style-type: square;
+    margin-left: 17px;
+    padding-bottom: 5px;
+}
+.phone_number {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 11px;
+    margin-top: 15px;
+}
+.amader_kotha.academic_calender.no_top_border.margin_bottom_20.fix > p {
+    font-size: 18px;
+}
+.margin_bottom_10 {
+    margin-bottom: 10px;
+}
+.no_border ul li {
+    border-bottom: none;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.no_border ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.clear {
+    clear: both;
+}
+.detail_news_event {
+    height: 170px;
+}
+.main_slider .bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    bottom: 315px;
+    position: absolute;
+    width: 100%;
+    left: 261px;
+}
+.school_caption {
+    height: 20px;
+    margin-top: 8px;
+    max-width: 450px;
+    background: red;
+}
+.school_caption > p {
+    font-size: 14px;
+    color: #555;
+}
+.image_and_caption {
+    float: left;
+    height: auto;
+    margin: 0 15px 10px 0;
+    max-width: 450px;
+}
+.donation_roll ol li {
+    margin-left: 26px;
+}
+.page-numbers.current {
+    background: #0091a2 none repeat scroll 0 0;
+}
+.page-numbers.current,
+.page-numbers {
+    padding: 5px 6px 3px;
+    color: #fff;
+}
+.page-numbers {
+    background: #999 none repeat scroll 0 0;
+    display: inline-block;
+    font-size: 14px;
+}
+.pagitation_donation {
+    margin-top: 15px;
+}
+.page-numbers:hover {
+    background: #0091a2;
+}
+.download_form {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 168px;
+}
+.download_form a {
+    padding: 5px 10px;
+    display: block;
+}
+.download_link ul li:nth-child(2n) {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.wpcf7-form-control.wpcf7-text {
+    margin-bottom: 10px;
+    width: 94%;
+    padding: 5px 10px;
+}
+.wpcf7-form-control.wpcf7-text {
+    height: 25px;
+    margin-bottom: 15px;
+}
+.comments_box textarea,
+.wpcf7-form-control.wpcf7-text,
+.contact_from textarea {
+    padding: 5px 10px;
+}
+.wpcf7-form-control.wpcf7-text,
+.contact_from textarea {
+    width: 94%;
+}
+.comments_box textarea,
+.contact_from textarea {
+    border: none;
+}
+.form input[type="reset"],
+button,
+#searchform input,
+.wpcf7-form-control.wpcf7-submit.submit_font,
+.form input,
+.comments_box textarea,
+.wpcf7-form-control.wpcf7-submit,
+.wpcf7-form-control.wpcf7-text,
+.contact_from > input[type="reset"],
+.contact_from textarea {
+    border: 1px solid #0091A2;
+}
+.form input,
+.wpcf7-form-control.wpcf7-submit,
+.contact_from > input[type="reset"] {
+    width: 80px;
+    height: auto;
+    padding: 5px 10px;
+    margin-right: 15px;
+    cursor: none;
+}
+.wpcf7-form-control-wrap text-442 > input[type="reset"] {
+    cursor: pointer;
+}
+button,
+#searchform input,
+.photogellary_image_caption,
+.main_slider,
+.form input,
+.comments_box textarea,
+.wpcf7-form-control.wpcf7-submit,
+.wpcf7-form-control.wpcf7-text,
+.contact_from textarea,
+.wpcf7-form-control.wpcf7-submit,
+.contact_from > input[type="reset"] {
+    margin-bottom: 15px;
+    background: #E6E7E8;
+}
+.form input[type="reset"]:hover,
+.class_routin_download > a:hover,
+.download_link ul li a:hover,
+.download_form a:hover,
+.class_routin_download > input:hover,
+.wpcf7-form-control.wpcf7-submit:hover,
+.admission_from_download > input[type="button"]:hover,
+.contact_from > input[type="button"]:hover,
+.contact_from > input[type="reset"]:hover {
+    background: #0091a2;
+    color: #fff;
+}
+.single_left2 ul {
+    list-style: outside none none;
+}
+.image_box_and_caption {
+    border: 5px solid #0091a2;
+    float: left;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    max-width: 250px;
+}
+.single_founder h2 {
+    color: #666;
+    font-size: 35px;
+    line-height: 150%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.single_founder.fix > p {
+    text-align: justify;
+}
+.single_founder {
+    width: 645px;
+}
+.head_teacher_image_caption {
+    float: left;
+    height: 143px;
+    margin-right: 15px;
+    width: 110px;
+}
+.head_teacher_body {
+    float: right;
+    height: 143px;
+    width: 275px;
+    text-align: justify;
+}
+.committee_margin {
+    margin-bottom: 10px;
+}
+.complate_committee {
+    margin-bottom: 17px;
+}
+.class_routin_download > a {
+    background: #e6e7e8;
+    font-size: 15px;
+    padding: 5px 10px;
+    color: #333;
+    display: inline-block;
+    border: 1px solid #0091a2;
+}
+.left_bire.single_founder > h4 {
+    color: #666;
+    font-size: 30px;
+    line-height: 150%;
+    padding: 0 0 10px;
+}
+.published_read > h3 {
+    font-size: 14px;
+    border-top: 1px solid #D1D3D4;
+    border-bottom: 1px solid #D1D3D4;
+    margin-bottom: 20px;
+    padding: 5px 0;
+}
+.single_image_size {
+    margin-bottom: 15px;
+    position: relative;
+}
+.captionBox {
+    bottom: -100%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.photo_gellary_caption {
+    bottom: -100%;
+    height: auto;
+    left: 0;
+    position: absolute;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.captionBox {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 153%;
+    padding: 5px 10px;
+    width: 100%;
+}
+.photogellary_image_caption:hover .captionBox,
+.single_image_size:hover .captionBox {
+    bottom: 0;
+}
+.comments_box .wpcf7-form-control.wpcf7-text {
+    padding: 5px 10px;
+    width: 90%;
+    cursor: auto;
+}
+.comments_box textarea {
+    height: 86px;
+    width: 90%;
+}
+#my-calendar {
+    background: #e6e7e8 none repeat scroll 0 0;
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+#my-calendar thead tr,
+.notday,
+#today {
+    text-align: center;
+    width: 10%;
+}
+#my-calendar thead tr,
+.notday {
+    background: #fff;
+}
+#today {
+    background: #0091a2;
+    color: #fff;
+}
+.form input {
+    font-family: "SolaimanLipiNormal";
+}
+.photogellary_image_caption {
+    float: left;
+    min-height: 177px;
+    margin: 0 10px 10px 0;
+    width: 235px;
+    position: relative;
+}
+.footer_three_part {
+    margin-bottom: 10px;
+}
+.photogellary_image_caption > iframe {
+    width: 235px;
+    height: 177px;
+    display: block;
+}
+.video_caption {
+    overflow: visible;
+}
+.minus,
+.routine,
+.pagination_for_300px,
+.for_300px_box_for_border,
+.for300,
+.for300px_mobile_screen,
+.r_menu,
+.search_form label {
+    display: none;
+}
+#searchform input {
+    padding: 5px;
+}
+.left_bire.single_founder h4 a {
+    color: #333;
+    font-size: 18px;
+    padding: 0;
+}
+.left_bire.single_founder.search_page > h4 {
+    color: #666;
+    font-size: 30px;
+    padding: 0 0 5px;
+    line-height: 77%;
+}
+.published_read.search_page_time > h3 {
+    padding: 2px 0;
+}
+.search_message > h2 {
+    font-size: 17px;
+    text-align: left;
+    border-bottom: 1px solid #0091a2;
+    padding-bottom: 2px;
+}
+.searchbox > input {
+    width: 93%;
+}
+.seacher_icon {
+    background: red none repeat scroll 0 0;
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+#searchform input {
+    width: 70%;
+}
+.search_image {
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+.founder_teacher {
+    border-bottom: 1px dashed #d1d3d4;
+    border-top: 1px dashed #d1d3d4;
+    display: block;
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 5px 0;
+}
+.searcBox {
+    width: 225px;
+}
+button {
+    cursor: pointer;
+    float: right;
+    height: 34px;
+    margin-left: 9px;
+    padding: 0 10px;
+    width: auto;
+}
+.logo img {
+    width: 86px;
+    height: 86px;
+    display: block;
+    margin: auto;
+}
+.notish1 {
+    display: block;
+}
+.display_750,
+.display_none_for750,
+.for750_single_content,
+.notish_for750,
+.for750 {
+    display: none;
+}
+.notish_bord1 .bx-wrapper {
+    margin: 0 auto -3px;
+    padding: 0;
+    position: relative;
+}
+.donation {
+    border-bottom: 1px solid #bcbec0;
+}
+.student_info p:last-child {
+    padding-bottom: 10px;
+}
+.class_routine_box {
+    background: cyan none repeat scroll 0 0;
+    margin: auto;
+    width: 713px;
+}
+.amader_kotha ul li a {
+    color: #555;
+}
+.amader_kotha ul li a:hover {
+    text-decoration: underline;
+}
+.r_menu {
+    background: #0091a2 none repeat scroll 0 0;
+    height: 30px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+.r_menu > p {
+    font-size: 17px;
+    color: #fff;
+    float: right;
+    margin-right: 12px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.amader_kotha.result.fix > h2 {
+    color: #fff;
+}
+.panel_info {
+    max-height: 179px;
+}
+.form input,
+.wpcf7-form-control.wpcf7-submit,
+.contact_from > input[type="reset"] {
+    cursor: inherit;
+    margin-right: 0;
+    cursor: pointer;
+}
+.class_routine.display_none_for_1000_750px:nth-child(9) {
+    border-bottom: 1px solid #0091a2;
+}
+.gallery.galleryid-667.gallery-columns-4.gallery-size-thumbnail.gallery1 {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em;
+    width: 100%;
+    height: auto;
+}
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+    width: 100%;
+    height: auto;
+}
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+}
+.alignright {
+    float: right;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.alignleft {
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.left_bire.single_founder.fix > h3 {
+    color: #666;
+    border-bottom: 1px solid #666;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fix.captionBox.pcaption.pccaption_padding.justcaptionsize a {
+    font-size: 15px;
+    padding: 5px;
+}
+.teacher > h2 > a {
+    color: #0091a2;
+}
+.featured_title_body > p > a:hover,
+.teacher > h2 > a:hover {
+    text-decoration: underline;
+}
+.plus,
+.minus {
+    float: right;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.plus:hover,
+.minus:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.routine_title h2 {
+    color: #fff;
+    font-family: "SolaimanLipiNormal";
+    font-size: 15px;
+    line-height: 14px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.feautured_image {
+    background: #abd8de none repeat scroll 0 0;
+    float: left;
+    height: auto;
+    width: 33%;
+}
+.featured_title_body {
+    float: right;
+    height: auto;
+    width: 65%;
+}
+.featured_title_body > h2 > a {
+    color: #333;
+    display: block;
+    font-size: 25px;
+    line-height: 150%;
+    padding: 2px 0 6px;
+    text-align: left;
+}
+.featured_title_body > p {
+    font-size: 15px;
+    line-height: 150%;
+    color: #444;
+}
+.fix.per_feautured {
+    border-bottom: 1px dashed #666;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.fix.per_feautured:nthi-child(n*10) {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.featured_title_body > p > a {
+    color: #0091a2;
+}
+.featured_title_body > h2 > a:hover {
+    color: #0091a2;
+}
+.right_bire.fix > h2 {
+    border-bottom: 1px solid #666;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+.right_bire.fix ul > li > a {
+    color: #333;
+    display: block;
+    font-size: 15px;
+    line-height: 150%;
+    padding-bottom: 10px;
+}
+.right_bire.fix > ul > li {
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #999;
+    list-style-type: square;
+    margin-left: 16px;
+    color: #0091a2;
+}
+.right_bire.fix > ul > li:last-child {
+    border-bottom: medium none;
+    margin-bottom: 0;
+}
+.select_option {
+    float: left;
+    margin-right: 3%;
+    width: 26%;
+}
+.archive_section {
+    padding: 10px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+.archive_section,
+.routine_title {
+    width: 100%;
+    height: auto;
+    background: #333;
+}
+.select_option > select {
+    width: 100%;
+}
+.fix.archive_section input, .select_option > select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: #333;
+    border-bottom-style: double;
+    border-bottom-width: 6px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: #333;
+    border-left-style: double;
+    border-left-width: 6px;
+    border-right-color: #333;
+    border-right-style: double;
+    border-right-width: 6px;
+    border-top-color: #333;
+    border-top-style: double;
+    border-top-width: 6px;
+    color: #333;
+    font-family: "SolaimanLipi";
+    font-size: 16px;
+    /* padding-bottom: 1px; */
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+    /* padding-top: 1px; */
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+}
+.fix.archive_section input,
+.select_option > select > option {
+    padding: 5px;
+}
+.fix.archive_section input {
+    background: #fff;
+    cursor: pointer;
+}
+.fix.archive_section input:hover {
+    background: #0091a2;
+    color: #fff;
+    border: 6px double #fff;
+}
+.fix.archive_section > input {
+    background: #fff none repeat scroll 0 0;
+    border: 6px double #333;
+    color: #333;
+    font-family: "SolaimanLipi";
+    font-size: 18px;
+    padding: 5px 0;
+    width: 150px;
+    cursor: pointer;
+}
+.fix.archive_section > input:hover {
+    background: #0091a2;
+    color: #fff;
+    border: 6px double #fff;
+}
+.fix.amader_kotha > h5 {
+    background: #333 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+}
+.fix.amader_kotha > h6 {
+    color: #666;
+    font-size: 15px;
+    line-height: 240%;
+    margin-bottom: 20px;
+}
+.success_student {
+    margin-left: -1.66%;
+}
+.success_student > .per_student {
+    background: gray none repeat scroll 0 0;
+    float: left;
+    height: 280px;
+    margin-bottom: 1.66%;
+    margin-left: 1.66%;
+    width: 23.34%;
+    position: relative;
+}
+.per_student_info {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    bottom: 0;
+    color: #fff;
+    height: auto;
+    padding-bottom: 3%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.per_student_info > h2 {
+    font-size: 17px;
+    padding: 10px 0 5px 0;
+}
+.per_student_info > h3 {
+    font-size: 15px;
+}
+.pagination_of_success {
+    padding-left: 1.66%;
+}
+.contact_from img,
+.form > p > img {
+    display: inline-block;
+}
+.d_r_part > h3 {
+  border-bottom: 1px solid #d1d3d4;
+  margin-bottom: 8px;
+  padding-bottom: 3px;
+}
+.d_r_part > h3:last-child {
+    border-bottom: none;
+}
+.d_r_part:first-child {
+    float: left;
+    height: auto;
+    margin-right: 2%;
+    width: 65%;
+}
+.d_r_part:last-child {
+    border: 1px solid #939598;
+    border-bottom: none;
+    float: right;
+    height: auto;
+    margin-right: 0;
+    width: 32%;
+}
+.d_r_title {
+    display: inline-block;
+    margin-right: 1%;
+    width: 20%;
+    text-align: right;
+}
+.mark_title {
+    border-bottom: 1px solid #d1d3d4;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+.mark_title:last-child {
+    border-bottom: 1px solid #939598;
+}
+.mark_range:nth-child(1) {
+    float: left;
+    width: 55%;
+}
+.mark_range:nth-child(2) {
+    width: 20%;
+    float: left;
+}
+.mark_range:nth-child(3) {
+    width: 20%;
+    float: left;
+}
+.d_r_part > h3,
+.mark_range:nth-child(1),
+.mark_range:nth-child(2),
+.mark_range:nth-child(3) {
+    font-size: 15px;
+    line-height: 150%;
+}
+.mark_range:nth-child(1),
+.mark_range:nth-child(2) {
+    border-right: 1px solid #d1d3d4;
+}
+.mark_range:nth-child(1),
+.mark_range:nth-child(2),
+.mark_range:nth-child(3) {
+    padding: 5px 0;
+}
+.result_sheet {
+    width: 100%;
+    height
+}
+.optional_subject,
+.result_sheet {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #939598;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: auto;
+    margin-bottom: 10px;
+    width: 99.75%;
+}
+.result_sheet_title:nth-child(1) {
+    border-right: 1px solid #d1d3d4;
+    float: left;
+    width: 79%;
+}
+.result_sheet_title:nth-child(2) {
+  border-right: 1px solid #d1d3d4;
+  float: left;
+  text-align: center;
+  width: 10%;
+  min-height: 22px;
+}
+.result_sheet_title:nth-child(3) {
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+.result_sheet_per_subject {
+    border-bottom: 1px solid #999;
+    padding-left: 1%;
+}
+.optional_subject_title, .result_sheet_title:nth-child(1), .result_sheet_title:nth-child(2), .result_sheet_title:nth-child(3) {
+  font-size: 15px;
+  padding: 8px 0;
+}
+.root_result {
+    float: right;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.root_result > .without_optional_result_title {
+  float: right;
+  height: auto;
+  padding: 5px;
+  text-align: right;
+  width: 33%;
+}
+.root_result > .without_optional_result {
+  border: 2px double #939598;
+  float: right;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  width: 9%;
+}
+.optional_subject {
+    border: 1px solid #939598;
+}
+.fix.optional_subject_title {
+    border-bottom: 1px solid #666;
+    padding-left: 1%;
+}
+.dynamic_result_select .select_option {
+    float: left;
+    margin-right: 3%;
+    width: 24%;
+}
+.dynamic_result_select .rollNumberSection input[type="text"] {
+    cursor: inherit;
+    float: left;
+    font-size: 12px;
+    margin-right: 1%;
+    /* padding: 8px 3px; */
+    text-align: center;
+    width: 81%;
+    font-family: Arial;
+    height: 26px;
+}
+.rollNumberSection {
+    float: left;
+    width: 16%;
+}
+.dynamic_result_select .select_option {
+  float: left;
+  margin-right: 1%;
+  width: 18%;
+}
+
+.not_fount {
+  display: inline;
+}
+
+.result_message {
+  color: red;
+  font-size: 14px;
+  padding-bottom: 20px;
+  display: block;
+}
+
+
+.fix.result_status {
+  height: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+  width: 19%;
+  margin: auto;
+}
+.status_red,
+.status {
+    float: none;
+    margin: auto;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.status {
+    background: green;
+}
+.status_red {
+    background: red;
+}
+.status_red > p,
+.status > p {
+  font-size: 17px;
+  padding: 8px 0;
+}
+.status > p:last-child {
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.print > button {
+  float: right;
+  font-family: "SolaimanLipiNormal";
+  font-size: 15px;
+  margin-left: 0;
+}
+.result_published_date {
+  text-align: center;
+  width: 100%;
+  border-top: 1px dashed #999;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.date_of_publishing {
+  color: #333;
+  text-align: center;
+}
+
+.result_published_date p,
+.date_of_publishing {
+  font-size: 14px;
+}
+
+.published_date_info {
+  width: 15%;
+  float: left;
+}
+
+.head_signature{
+    float: right;
+}
+
+.result_creator {
+  margin-left: 28%;
+}
+
+.result_date_creator_head_sign {
+  height: auto;
+  margin: 40px auto auto;
+  width: 100%;
+}
+
+.last_result{
+    width: 25%;
+}
+.last_result .result_sheet_title:nth-child(2),
+.last_result .result_sheet_title:nth-child(3){
+    width: 25%;
+}
+
+.last_result .result_sheet_title:nth-child(1) {
+  width: 49%;
+}
+
+.last_result .result_sheet_per_subject,
+.last_result .optional_subject_title {
+  padding-left: 5%;
+}
+
+.print > button {
+    margin-bottom: 0;
+}
+
+.jq_section_name,
+.jq_division_name{
+    display: none;
+}
+
+.fix.result_sheet_per_subject:nth-child(2n+1) {
+  background: #D1D3D4 none repeat scroll 0 0;
+}
+
+.income {
+  border: 1px solid #555;
+}
+
+.className {
+  float: left;
+  width: 50%;
+}
+.present {
+  border-left: 1px solid #666;
+  float: left;
+  padding-right: 4%;
+  text-align: right;
+  width: 20%;
+  font-size: 14px;
+}
+
+.fix.title_bg {
+  background: #0091a2 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 12px;
+}
+
+.fix.title_bg.present {
+  border-left: 1px solid #fff;
+}
+
+.fix.present.white {
+  border-left: 1px solid #fff;
+}
+
+.Ssection {
+  float: left;
+  font-family: "SolaimanLipiNormal";
+  font-size: 14px;
+  margin-right: 3%;
+  padding: 5px;
+  width: 28%;
+}
+
+.ddate input {
+  font-size: 12px;
+  height: 25px;
+  width: 52%;
+}
+
+.techer_date {
+  margin: auto;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.fix.techer_date > input {
+  float: right;
+  width: 20%;
+}
+
+.ddate {
+  float: left;
+  width: 73%;
+}
+
+.view {
+  background: yellow none repeat scroll 0 0;
+  float: right;
+  width: 25%;
+}
+.view > input {
+  border: medium none;
+  cursor: pointer;
+  font-family: "Solaminalipi";
+  font-size: 14px;
+  padding: 5px;
+  width: 100%;
+}
+.positionTeacher {
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.pagination {
+  margin-bottom: 15px;
+}

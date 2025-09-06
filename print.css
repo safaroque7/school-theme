@@ -1,0 +1,31 @@
+@media print {
+    * {
+        -webkit-print-color-adjust:exact;
+    }
+    .amader_kotha > h2,
+    .footer_three_part,
+    .archive_section,
+    .search_and_soical_share,
+    .school_menu {
+        display: none;
+    }
+    
+    .single_footer2 ul li a {
+      color: #fff;
+    }
+    .header{
+        border-bottom: 1px solid #666;
+        z-index: 1000000;
+    }
+    .logo{
+        background: none;
+    }
+    .print > button{
+        display: none;
+    }
+    .fix.result_sheet_per_subject:nth-child(2n+1) {
+      background: #d1d3d4 none repeat scroll 0 0;
+    }
+    
+    
+}
